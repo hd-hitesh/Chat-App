@@ -42,12 +42,12 @@ public class LoginActivity extends AppCompatActivity {
         btn_login = findViewById(R.id.btn_login);
         forgot_password = findViewById(R.id.forgot_password);
 
-//        forgot_password.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
-//            }
-//        });
+        forgot_password.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
+            }
+        });
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
